@@ -24,6 +24,11 @@
 			<groupId>org.springframework.data</groupId>
 			<artifactId>spring-data-rest-hal-browser</artifactId>
 		</dependency>
+		<dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-tomcat</artifactId>
+            <scope>provided</scope>
+        </dependency>
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -32,6 +37,7 @@
 		</dependency>
 	</dependencies>
 	<build>
+		<finalName>springActuator</finalName>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
