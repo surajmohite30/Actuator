@@ -8,7 +8,7 @@ import org.springframework.web.servlet.config.annotation.CorsRegistry;
 
 @SpringBootApplication
 public class ActuatorApplication extends SpringBootServletInitializer {
-	@CrossOrigin(origins="http://localhost:4200")
+	@CrossOrigin(origins="http://localhost:8081")
 	public static void main(String[] args) {
 		SpringApplication.run(ActuatorApplication.class, args);
 		
